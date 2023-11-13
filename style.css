@@ -1,0 +1,475 @@
+ .desktop {
+     background-color: #ffffff;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .div {
+     background-color: #ffffff;
+     width: 1440px;
+     height: 1764px;
+     position: relative;
+ }
+
+ .navigation {
+     position: absolute;
+     width: 1196px;
+     height: 141px;
+     top: 0;
+     left: 122px;
+ }
+
+ .line {
+     position: absolute;
+     width: 1196px;
+     height: 1px;
+     top: 140px;
+     left: 0;
+     object-fit: cover;
+ }
+
+ .logo {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 10px;
+     padding: 10px;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+
+ .rectangle {
+     position: relative;
+     width: 137px;
+     height: 119.37px;
+     object-fit: cover;
+ }
+
+ .navbar {
+     display: inline-flex;
+     height: 37px;
+     align-items: flex-start;
+     list-style: none;
+     gap: 32px;
+     position: absolute;
+     top: 35px;
+     left: 197px;
+ }
+
+ .navlink {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+  .navlink:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #7c2d2d;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .navlink:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+ .text-wrapper {
+     position: relative;
+     width: fit-content;
+     margin-top: -1px;
+     font-family: "Days One", Helvetica;
+     font-weight: 400;
+     color: #000000;
+     font-size: 16px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .icons {
+     display: inline-flex;
+     position: absolute;
+     gap: 50px;
+     width: 142px;
+     height: 52px;
+     top: 54px;
+     left: 1039px;
+ }
+
+ .ssicon {
+    width: 25px;
+    transition: transform .2s;
+ }
+
+ .ssicon:hover {
+    transform: scale(1.5);
+  }
+
+  .ssicon:active {
+    transform: scale(1.2);
+  }
+
+ .body {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 40px;
+     position: absolute;
+     top: 171px;
+     left: 365px;
+ }
+
+ .text-wrapper-2 {
+     position: relative;
+     width: fit-content;
+     margin-top: -1px;
+     font-family: "Days One", Helvetica;
+     font-weight: 300;
+     color: #000000;
+     font-size: 40px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .cards {
+     display: flex;
+     flex-wrap: wrap;
+     width: 710px;
+     align-items: center;
+     justify-content: center;
+     gap: 52px 60px;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .card {
+     display: flex;
+     flex-direction: column;
+     width: 250px;
+     height: 320px;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+     position: relative;
+     border-radius: 24px;
+     transition: transform .2s;
+     background: linear-gradient(180deg, rgb(255, 210, 209), #ffb1b0 100%);
+ }
+
+ .card:hover {
+    transform: translate(-0.07em, -0.07em);
+    box-shadow: 0.35em 0.35em 7px #7c2d2d;
+  }
+
+ .heading {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 16px;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .text-wrapper-3 {
+     position: relative;
+     width: fit-content;
+     margin-top: -1px;
+     font-family: "Days One", Helvetica;
+     font-weight: 750;
+     color: #000000;
+     font-size: 20px;
+     letter-spacing: 0;
+     line-height: 12px;
+     white-space: nowrap;
+ }
+
+ .text-wrapper-4 {
+     position: relative;
+     width: fit-content;
+     font-family: "Days One", Helvetica;
+     font-weight: 750;
+     color: #000000;
+     font-size: 20px;
+     letter-spacing: 0;
+     line-height: 12px;
+     white-space: nowrap;
+ }
+
+ .duration-month {
+     position: relative;
+     width: fit-content;
+     font-family: "Days One", Helvetica;
+     font-weight: 500;
+     color: #000000;
+     font-size: 14px;
+     letter-spacing: 0;
+     line-height: 20px;
+ }
+
+ .button {
+    background: #7079f0;
+    color: white;
+    font-family: "Days One", Helvetica;
+    padding: 0.45em;
+    padding-left: 1.0em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+    transition: transform .2s;
+  }
+  
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+
+ .text-wrapper-5 {
+     position: relative;
+     width: fit-content;
+     margin-top: -1px;
+     font-family: var(--button-base-font-family);
+     font-weight: var(--button-base-font-weight);
+     color: #000000;
+     font-size: var(--button-base-font-size);
+     letter-spacing: var(--button-base-letter-spacing);
+     line-height: var(--button-base-line-height);
+     white-space: nowrap;
+     font-style: var(--button-base-font-style);
+ }
+
+ .line2 {
+     position: absolute;
+     width: 1196px;
+     height: 1px;
+     top: 1369px;
+     left: 122px;
+     object-fit: cover;
+ }
+
+ .footer {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 25px;
+     position: absolute;
+     top: 1418px;
+     left: 222px;
+     background-color: transparent;
+ }
+
+ .details {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 108px;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .a-p {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: flex-start;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .div-2 {
+     display: flex;
+     align-items: center;
+ }
+
+ .text-wrapper-6 {
+     position: relative;
+     width: fit-content;
+     margin-top: -1px;
+     font-family: "Days One", Helvetica;
+     font-weight: 400;
+     color: #000000;
+     font-size: 25px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .logos {
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 70px;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .img-wrapper {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 10px;
+     padding: 10px;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .MSME {
+     position: relative;
+     width: 215px;
+     height: 170.87px;
+     object-fit: cover;
+ }
+
+ .NCS {
+     position: relative;
+     width: 281px;
+     height: 159px;
+     object-fit: cover;
+ }
+
+ .insta {
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 10px;
+     position: relative;
+     flex: 0 0 auto;
+ }
+
+ .vector {
+     position: relative;
+     width: 30px;
+     height: 30px;
+ }
+
+ .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-email {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #000000;
+    font-family: "Days One", Helvetica;
+    font-size: 15px;
+    border: 1px solid #7c2d2d;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #7c2d2d;
+    color: #fff;
+    font-family: "Days One", Helvetica;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #da7777;
+  }
+  
+  .input-email:focus, .input-email:focus-visible {
+    border-color: #da7777;
+    outline: none;
+  }  
+
+ .rectangle-2 {
+     position: relative;
+     width: 300px;
+     height: 34px;
+     background-color: #d9d9d9;
+ }
+
+ .frame {
+     display: flex;
+     width: 95px;
+     height: 34px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     position: relative;
+     background-color: #fecccb;
+     border-radius: 28px;
+ }
+
+ .end {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 10px;
+     position: absolute;
+     top: 1729px;
+     left: 633px;
+ }
+
+ .element-vault-of-codes {
+     position: relative;
+     width: fit-content;
+     margin-top: -1px;
+     font-family: "Days One", Helvetica;
+     font-weight: 400;
+     color: #000000;
+     font-size: 12px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .span {
+     font-family: "Days One", Helvetica;
+     font-weight: 400;
+     color: #000000;
+     font-size: 12px;
+     letter-spacing: 0;
+ }
+
+ .text-wrapper-9 {
+     text-decoration: underline;
+ }
